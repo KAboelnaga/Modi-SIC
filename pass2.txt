@@ -1,0 +1,22 @@
+resw resb --> no object code
+
+byte --> x --> zy ma heya
+	   c --> convert to ascii
+
+word --> decimal to hexa use zfill(6) check for multiple using a comma
+
+
+format 3
+
+binary
+	7 opcode	
+	1 immediate (# --> at the beg of operand)	
+	1 indexing (x --> at the end of operand)	
+	15 address (location in symbol table - location of next instruction)
+
+format 1
+
+8 opcode		
+
+
+

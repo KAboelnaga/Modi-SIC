@@ -1,0 +1,10 @@
+COPY    START   1000
+FIRST   STL     FIRST
+        RESW    1
+SECOND  COMP    SECOND
+THIRD   TIO     -
+        STL     FIRST
+        BYTE    X'F1'
+        RSUB    -
+        WORD    10
+        BYTE    C'EOF'
